@@ -1,0 +1,635 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*haeder CSS*/
+
+.bg_img{
+    position: relative;
+    background-image: url("images/sky_bg.jpg");
+    border-bottom: 4px solid #1B3551;
+}
+
+.logo {
+margin-top:10px;
+
+}
+
+.no-padding{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-collapse{
+    float:right;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff !important;
+    height: 57px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: #1B3551;
+}
+
+
+/*CONTENT CSS START*/
+.text_submit{
+    text-align:center;
+    margin-top: 7%;
+}
+.text {
+    width: 60%;
+    height: 52px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.plus {
+    background: none;
+    border: 1px solid #cecece;
+    height: 52px;
+    width: 37px;
+}
+
+.submit{
+height: 52px;
+width: 81px;
+background: none;
+border: 1px solid #ccc;
+border-left: none;
+padding-left: -2p;
+margin-left: -5px;
+}
+
+.content{
+    background-color: #1B3551;
+    font-size: 15px;
+    color: #fff;
+    height: 50px;
+    padding: 18px;
+}
+
+.images{
+    margin-top: 6px;
+}
+
+.contents_divs {
+    padding-top: 40px;
+}
+.icon-img{
+    float:left;
+    margin-top: 10px;
+}
+
+.contents_divs_text{
+    margin-top:20px;
+    font-size:20px;
+    padding-left: 45px;
+}
+
+.content_text{
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: justify;
+
+}
+
+.read_more{
+      margin-top: 18px;
+      background-color: #1B3551;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      height: 34px;
+  }
+
+.read_more:hover{
+
+    background-color:#C43434;
+
+}
+
+.bg_img2{
+    background-image: url("images/home_church_book_patern-copy-2.jpg");
+    margin-top: 40px;
+}
+.txt{
+    text-align: center;
+    margin-left: 27%;
+    margin-right: 23%;
+    font-size: 18px;
+    line-height:26px;
+}
+
+.bg_img2 img{
+    margin-left: 19%;
+    margin-top: 5%;
+
+}
+
+.img2{
+    margin-left: 12%;
+}
+
+.bg_img3{
+    background-color:#f1e9d4;
+    margin-top:20px;
+    padding-bottom: 45px;
+}
+
+.about_div{
+    background-color: #1B3551;
+    margin-top: 47px;
+    padding-bottom: 37px;
+    margin-left: 10%;
+}
+
+
+.about_div h1{
+    color:#fff;
+    font-size:25px;
+    padding: 20px;
+}
+.about_div p{
+    color:#fff;
+    font-size: 17px;
+    text-align: justify;
+    line-height:23px;
+}
+.img3 img {
+    margin-top: 47px;
+    margin-left: 10%;
+}
+
+/* SLIDER CSS STRART*/
+
+.slider {
+    margin-top: 20px;
+}
+
+/*FOOTER CSS START*/
+
+.footer_div{
+    background-color:#1B3551;
+}
+.footer_div .top_menu{
+    float:right;
+}
+
+.footer_div .menu_links{
+    float:right;
+}
+
+
+.footer_div .top_menu a{
+    color:#fff !important;
+}
+
+.footer_div .top_menu a:hover{
+    color:#1B3551 !important;
+}
+
+
+/*ABOUT_US PAGE CSS START*/
+
+.about-content{
+    margin-top:30px;
+}
+
+.about_text h1{
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.about_text h2{
+    font-size: 12px;
+    padding: 10px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.about_text p{
+    font-size: 13px;
+    line-height: 20px;
+    padding-left: 10px;
+    text-align:justify;
+}
+
+.about-content2{
+    margin-top:30px;
+}
+
+.bg_photo{
+    background-image:url("images/home_church_book_patern-copy-3.jpg");
+}
+.jj{
+
+    top:8%;
+    left:27%;
+
+}
+
+.jj h1{
+    float: left;
+    font-size: 61px;
+    color:#838787;
+}
+
+.jj h1 strong{
+    font-size: 20px;
+    color:#838787;
+}
+
+.jj p{
+    font-size: 13px;
+    text-align: justify;
+    margin-left: 20%;
+    color:#838787;
+}
+
+
+
+/*CONTACT US PAGE CSS START*/
+
+.contact_us{
+    border-bottom: 2px solid #ccc;
+}
+
+.contact_us h1{
+    margin-top:15%;
+    font-size: 25px;
+    color: #6E6B6B;
+}
+
+.contact_content .fa{
+    float: left;
+    padding-right: 8px;
+    font-size: 55px;
+    color: #1B3551;
+}
+.contact_content p{
+    padding-top: 30px;
+    font-size: 14px;
+    color: #838787;
+}
+
+
+/*#contactus fieldset
+{
+    width:320px;
+    padding:20px;
+    border:1px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}*/
+
+#contactus legend, h2
+{
+    font-family : Arial, sans-serif;
+    font-size: 1.3em;
+    font-weight:bold;
+    color:#333;
+}
+
+#contactus label
+{
+    font-family : Arial, sans-serif;
+    font-size:0.8em;
+    color:#838787;
+    padding-top: 25px;
+}
+
+#contactus input[type="text"],textarea
+{
+    font-family : Arial, Verdana, sans-serif;
+    font-size: 0.8em;
+    line-height:140%;
+    color : #000;
+    padding : 3px;
+    border : 1px solid #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+#contactus input[type="text"]
+{
+    height:45px;
+    width:100%;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+#contactus #scaptcha
+{
+    width: 100%;
+    height: 37px;
+}
+
+#contactus input[type="submit"]
+{
+    width: 100%;
+    height: 30px;
+    padding-left: 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #1B3551;
+    border: none;
+    color: #fff
+}
+
+#contactus textarea
+{
+    height:120px;
+    width:100%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#contactus input[type="text"]:focus,textarea:focus
+{
+    color : #009;
+    border : 1px solid #990000;
+    background-color : #ffff99;
+    font-weight:bold;
+}
+
+#contactus .container
+{
+    margin-top:8px;
+    margin-bottom: 10px;
+}
+
+#contactus .error
+{
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.7em;
+    color: #900;
+    background-color : #ffff00;
+}
+
+#contactus fieldset#antispam
+{
+    padding:2px;
+    border-top:1px solid #EEE;
+    border-left:0;
+    border-right:0;
+    border-bottom:0;
+    width:350px;
+}
+
+#contactus fieldset#antispam legend
+{
+    font-family : Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight:bold;
+    color:#333;
+}
+
+#contactus .short_explanation
+{
+    font-family : Arial, sans-serif;
+    font-size: 0.8em;
+    color:#333;
+    padding-top: 10px;
+}
+
+/* spam_trap: This input is hidden. This is here to trick the spam bots*/
+#contactus .spmhidip
+{
+    display:none;
+    width:10px;
+    height:3px;
+}
+#fg_crdiv
+{
+    font-family : Arial, sans-serif;
+    font-size: 0.3em;
+    opacity: .2;
+    -moz-opacity: .2;
+    filter: alpha(opacity=20);
+}
+#fg_crdiv p
+{
+    display:none;
+}
+
+
+/*REGISTER PAGE CSS START*/
+
+.bg_div{
+    position:relative;
+    border:1px solid #eee;
+    margin-top:80px;
+    box-shadow: 1px 6px 40px #000000;
+    padding-bottom: 40px;
+}
+
+.imgs {
+    position: absolute;
+    top: 35%;
+    left: 16%;
+}
+
+.form_box{
+    margin-top:7%;
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 11px 0 16px;
+    margin-top: 1px \9;
+    line-height: normal;
+    /* padding-left: 30px; */
+    margin-left: 59px;
+}
+
+.preffered{
+    float: left;
+    margin-top: 27px;
+}
+
+.pass{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+
+/*LOGIN PAGE CSS START*/
+
+.img_box {
+    background-color: #ececec;
+    border-radius: 5px;
+    border-bottom: none;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login_box{
+    border:1px solid #eee;
+    margin-top: 40px;
+    padding-bottom: 100px;
+    box-shadow: 1px 6px 40px #000000;
+}
+
+.login_form_box{
+    width: 70%;
+    border-radius:5px;
+    border-top:none;
+    background-color:#1B3551;
+    margin: 0 auto;
+    margin-top: -55px;
+    padding-bottom: 30px;
+}
+
+.login_form_box #contactus input[type="submit"]{
+    background-color: #DC4B4B;
+}
+
+.remember_checbox{
+     color:#fff !important;
+     text-align:center;
+     margin-top: 35px;
+     width: 20px;
+     height: 20px;
+}
+
+
+
+/*MEDIA CSS START*/
+@media screen and (max-width: 1239px) {
+    .jj {
+
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+
+    .img2 {
+        margin-left:0;
+    }
+
+    .navbar-collapse {
+       float: left;
+    }
+
+    .footer_div .top_menu{
+        float:none;
+    }
+
+    .footer_div .menu_links{
+        float:none;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .about_div {
+        margin-left: 0;
+    }
+
+    .img3 img {
+        margin-left: 0;
+    }
+
+    .img3 {
+        text-align: center;
+    }
+
+    .img_box {
+        padding-top: 27px;
+        padding-bottom: 47px;
+    }
+}
+@media screen and (max-width: 844px){
+  .images img{
+      width:100%;
+  }
+}
+@media screen and (max-width: 687px){
+.bg_img2 img {
+    margin-left: 9%;
+
+}
+}
+
+@media screen and (max-width: 626px){
+    .bg_img2 img {
+        margin-left: 5%;
+
+    }
+}
+
+@media screen and (max-width: 595px){
+    .bg_img2 img {
+        margin-left: 0;
+
+    }
+}
+
+
+
+
+
+
